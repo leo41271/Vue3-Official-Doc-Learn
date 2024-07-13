@@ -1,9 +1,9 @@
 <script setup>
-
+import A from "@/pages/other/style-scoped.vue"
 </script>
 
 <template>
-  <div>test</div>
+  <A></A>
 </template>
 
 <style scoped></style>
