@@ -1,9 +1,9 @@
 <script setup>
-import A from "@/pages/other/style-scoped.vue"
+import reactivityFundamentals from "@/pages/op-doc/App-reactivity-fundamentals.vue"
 </script>
 
 <template>
-  <A></A>
+  <reactivityFundamentals></reactivityFundamentals>
 </template>
 
 <style scoped></style>
