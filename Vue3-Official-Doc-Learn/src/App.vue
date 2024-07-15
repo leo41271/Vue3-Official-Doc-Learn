@@ -1,17 +1,17 @@
 <script setup></script>
 <script>
-import classStyle from '@/pages/op-doc/App-class-and-style-bindings.vue'
+import Conditional from '@/pages/op-doc/App-conditional-rendering.vue'
 export default {
   data() {
     return {
     }
   },
   components: {
-    classStyle
+    Conditional
   }
 }
 </script>
 <template>
-  <classStyle></classStyle>
+  <Conditional></Conditional>
 </template>
 <style scoped></style>
