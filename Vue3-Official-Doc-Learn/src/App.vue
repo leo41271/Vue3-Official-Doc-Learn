@@ -7,7 +7,7 @@ export default {
     }
   },
   components: {
-    eventHandling
+    eventHandling 
   }
 }
 </script>
