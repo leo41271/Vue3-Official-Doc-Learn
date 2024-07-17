@@ -1,17 +1,17 @@
 <script setup></script>
 <script>
-import Conditional from '@/pages/op-doc/App-conditional-rendering.vue'
+import listRendering from "@/pages/op-doc/App-list-rendering.vue"
 export default {
   data() {
     return {
     }
   },
   components: {
-    Conditional
+    listRendering
   }
 }
 </script>
 <template>
-  <Conditional></Conditional>
+  <listRendering></listRendering>
 </template>
 <style scoped></style>
