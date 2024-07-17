@@ -1,17 +1,17 @@
 <script setup></script>
 <script>
-import listRendering from "@/pages/op-doc/App-list-rendering.vue"
+import eventHandling from "@/pages/op-doc/App-event-handling.vue"
 export default {
   data() {
     return {
     }
   },
   components: {
-    listRendering
+    eventHandling
   }
 }
 </script>
 <template>
-  <listRendering></listRendering>
+  <eventHandling></eventHandling>
 </template>
 <style scoped></style>
