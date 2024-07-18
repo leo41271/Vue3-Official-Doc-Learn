@@ -1,17 +1,17 @@
 <script setup></script>
 <script>
-import watcher from "@/pages/op-doc/App-watcher.vue"
+import refEX from "@/pages/op-doc/App-template-refs.vue"
 export default {
   data() {
     return {
     }
   },
   components: {
-    watcher
+    refEX
   }
 }
 </script>
 <template>
-  <watcher></watcher>
+  <refEX></refEX>
 </template>
 <style scoped></style>
