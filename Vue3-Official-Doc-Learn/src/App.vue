@@ -1,17 +1,17 @@
 <script setup></script>
 <script>
-import eventHandling from "@/pages/op-doc/App-event-handling.vue"
+import watcher from "@/pages/op-doc/App-watcher.vue"
 export default {
   data() {
     return {
     }
   },
   components: {
-    eventHandling 
+    watcher
   }
 }
 </script>
 <template>
-  <eventHandling></eventHandling>
+  <watcher></watcher>
 </template>
 <style scoped></style>
