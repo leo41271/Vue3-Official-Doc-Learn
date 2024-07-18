@@ -1,17 +1,17 @@
 <script setup></script>
 <script>
-import refEX from "@/pages/op-doc/App-template-refs.vue"
+import componentsBasics from "@/pages/op-doc/App-components-basics.vue"
 export default {
   data() {
     return {
     }
   },
   components: {
-    refEX
+    componentsBasics
   }
 }
 </script>
 <template>
-  <refEX></refEX>
+  <componentsBasics></componentsBasics>
 </template>
 <style scoped></style>
