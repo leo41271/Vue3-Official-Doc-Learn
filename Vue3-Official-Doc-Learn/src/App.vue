@@ -1,17 +1,17 @@
 <script setup></script>
 <script>
-import componentsBasics from "@/pages/op-doc/App-components-basics.vue"
+import componentRegistration from "@/pages/op-doc/App-component-registration.vue"
 export default {
   data() {
     return {
     }
   },
   components: {
-    componentsBasics
+    componentRegistration
   }
 }
 </script>
 <template>
-  <componentsBasics></componentsBasics>
+  <componentRegistration></componentRegistration>
 </template>
 <style scoped></style>
