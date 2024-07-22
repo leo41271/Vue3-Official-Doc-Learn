@@ -1,17 +1,18 @@
 <script setup></script>
 <script>
-import ComponentVModel from "@/pages/op-doc/App-components-v-model.vue"
+import FallthroughAttributes from "@/pages/op-doc/App-compoments-fallthrough-attributes.vue"
 export default {
   data() {
     return {
     }
   },
   components: {
-    ComponentVModel
+    FallthroughAttributes
   }
 }
 </script>
 <template>
-  <ComponentVModel></ComponentVModel>
+  <FallthroughAttributes></FallthroughAttributes>
+
 </template>
 <style scoped></style>
