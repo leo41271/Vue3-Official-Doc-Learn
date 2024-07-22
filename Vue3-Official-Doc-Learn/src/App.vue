@@ -1,17 +1,17 @@
 <script setup></script>
 <script>
-import ComponentsEvents from "@/pages/op-doc/App-components-events.vue"
+import ComponentVModel from "@/pages/op-doc/App-components-v-model.vue"
 export default {
   data() {
     return {
     }
   },
   components: {
-    ComponentsEvents
+    ComponentVModel
   }
 }
 </script>
 <template>
-  <ComponentsEvents></ComponentsEvents>
+  <ComponentVModel></ComponentVModel>
 </template>
 <style scoped></style>
