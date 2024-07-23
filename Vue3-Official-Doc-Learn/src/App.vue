@@ -1,18 +1,17 @@
 <script setup></script>
 <script>
-import FallthroughAttributes from "@/pages/op-doc/App-compoments-fallthrough-attributes.vue"
+import SlotsUse from "@/pages/op-doc/App-components-slots.vue"
 export default {
   data() {
     return {
     }
   },
   components: {
-    FallthroughAttributes
+    SlotsUse
   }
 }
 </script>
 <template>
-  <FallthroughAttributes></FallthroughAttributes>
-
+  <SlotsUse></SlotsUse>
 </template>
 <style scoped></style>
