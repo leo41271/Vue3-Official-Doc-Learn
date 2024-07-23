@@ -1,17 +1,17 @@
 <script setup></script>
 <script>
-import SlotsUse from "@/pages/op-doc/App-components-slots.vue"
+import Promise from "@/pages/other/Promise.vue"
 export default {
   data() {
     return {
     }
   },
   components: {
-    SlotsUse
+    Promise
   }
 }
 </script>
 <template>
-  <SlotsUse></SlotsUse>
+  <Promise></Promise>
 </template>
 <style scoped></style>
