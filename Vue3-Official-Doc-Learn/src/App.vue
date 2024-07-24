@@ -1,17 +1,17 @@
 <script setup></script>
 <script>
-import TemplateSyntax from "@/pages/com-doc/App-template-syntax.vue"
+import ReactivityFundamentals from "@/pages/com-doc/App-reactivity-fundamentals.vue"
 export default {
   data() {
     return {
     }
   },
   components: {
-    TemplateSyntax
+    ReactivityFundamentals
   }
 }
 </script>
 <template>
-  <TemplateSyntax></TemplateSyntax>
+  <ReactivityFundamentals></ReactivityFundamentals>
 </template>
 <style scoped></style>
