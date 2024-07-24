@@ -1,17 +1,23 @@
 <script setup></script>
 <script>
-import ReactivityFundamentals from "@/pages/com-doc/App-reactivity-fundamentals.vue"
+import OpReactivityFundamentals from "@/pages/op-doc/App-reactivity-fundamentals.vue"
+import ComReactivityFundamentals from "@/pages/com-doc/App-reactivity-fundamentals.vue"
 export default {
   data() {
     return {
     }
   },
   components: {
-    ReactivityFundamentals
+    ComReactivityFundamentals,
+    OpReactivityFundamentals,
   }
 }
 </script>
 <template>
-  <ReactivityFundamentals></ReactivityFundamentals>
+  <OpReactivityFundamentals></OpReactivityFundamentals>
+  <hr>
+  <hr>
+  <hr>
+  <ComReactivityFundamentals></ComReactivityFundamentals>
 </template>
 <style scoped></style>
