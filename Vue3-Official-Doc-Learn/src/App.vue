@@ -1,17 +1,17 @@
 <script setup></script>
 <script>
-import Promise from "@/pages/other/Promise.vue"
+import TemplateSyntax from "@/pages/com-doc/App-template-syntax.vue"
 export default {
   data() {
     return {
     }
   },
   components: {
-    Promise
+    TemplateSyntax
   }
 }
 </script>
 <template>
-  <Promise></Promise>
+  <TemplateSyntax></TemplateSyntax>
 </template>
 <style scoped></style>

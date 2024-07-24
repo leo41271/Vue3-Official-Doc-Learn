@@ -16,6 +16,8 @@ app.component("GlobalA", gloalComponentA)
     .component("GlobalB", gloalComponentB)
     .component("GlobalC", gloalComponentC);
 
+app.config.globalProperties.myCustomProperty = '這是一個全局的自定義屬性';// 添加一個全局的自定義屬性
+
 const appInstance = app.mount("#app"); // 觀察組件實例 
 appInstance.gggg = 0;// appInstance.gggg++;
 console.log("proxy", appInstance.person);
