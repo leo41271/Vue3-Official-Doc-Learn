@@ -1,5 +1,5 @@
 <script setup>
-import ConditionalRendering from "@/pages/com-doc/App-conditional-rendering.vue"
+import ListRendering from "@/pages/com-doc/App-list-rendering.vue"
 </script>
 <script>
 export default {
@@ -10,6 +10,6 @@ export default {
 }
 </script>
 <template>
-  <ConditionalRendering />
+  <ListRendering />
 </template>
 <style scoped></style>
