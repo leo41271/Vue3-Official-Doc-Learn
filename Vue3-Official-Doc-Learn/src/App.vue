@@ -1,23 +1,18 @@
 <script setup></script>
 <script>
-import OpReactivityFundamentals from "@/pages/op-doc/App-reactivity-fundamentals.vue"
-import ComReactivityFundamentals from "@/pages/com-doc/App-reactivity-fundamentals.vue"
+import ComputedProperties from "@/pages/com-doc/App-computed-properties.vue"
+
 export default {
   data() {
     return {
     }
   },
   components: {
-    ComReactivityFundamentals,
-    OpReactivityFundamentals,
+    ComputedProperties
   }
 }
 </script>
 <template>
-  <OpReactivityFundamentals></OpReactivityFundamentals>
-  <hr>
-  <hr>
-  <hr>
-  <ComReactivityFundamentals></ComReactivityFundamentals>
+  <ComputedProperties></ComputedProperties>
 </template>
 <style scoped></style>
