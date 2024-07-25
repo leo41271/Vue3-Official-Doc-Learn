@@ -1,18 +1,15 @@
-<script setup></script>
+<script setup>
+import ClassAndStyleBindings from "@/pages/com-doc/App-class-and-style-bindings.vue"
+</script>
 <script>
-import ComputedProperties from "@/pages/com-doc/App-computed-properties.vue"
-
 export default {
   data() {
-    return {
-    }
+    return {}
   },
-  components: {
-    ComputedProperties
-  }
+  components: {}
 }
 </script>
 <template>
-  <ComputedProperties></ComputedProperties>
+  <ClassAndStyleBindings />
 </template>
 <style scoped></style>
