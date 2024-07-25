@@ -1,5 +1,5 @@
 <script setup>
-import ClassAndStyleBindings from "@/pages/com-doc/App-class-and-style-bindings.vue"
+import ConditionalRendering from "@/pages/com-doc/App-conditional-rendering.vue"
 </script>
 <script>
 export default {
@@ -10,6 +10,6 @@ export default {
 }
 </script>
 <template>
-  <ClassAndStyleBindings />
+  <ConditionalRendering />
 </template>
 <style scoped></style>
