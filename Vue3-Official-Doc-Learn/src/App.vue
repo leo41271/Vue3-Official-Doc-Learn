@@ -1,5 +1,5 @@
 <script setup>
-import ListRendering from "@/pages/com-doc/App-list-rendering.vue"
+import EventHandling from "@/pages/com-doc/App-event-handling.vue"
 </script>
 <script>
 export default {
@@ -10,6 +10,6 @@ export default {
 }
 </script>
 <template>
-  <ListRendering />
+  <EventHandling />
 </template>
 <style scoped></style>
