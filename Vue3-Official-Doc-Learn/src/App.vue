@@ -1,5 +1,5 @@
 <script setup>
-import Watcher from "@/pages/com-doc/App-watcher.vue"
+import Refs from "@/pages/com-doc/App-template-refs.vue"
 </script>
 <script>
 export default {
@@ -10,6 +10,6 @@ export default {
 }
 </script>
 <template>
-  <Watcher />
+  <Refs />
 </template>
 <style scoped></style>
