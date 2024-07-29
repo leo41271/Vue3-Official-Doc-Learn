@@ -1,5 +1,5 @@
 <script setup>
-import Refs from "@/pages/com-doc/App-template-refs.vue"
+import ComponentsBasic from "@/pages/com-doc/App-components-basic.vue"
 </script>
 <script>
 export default {
@@ -10,6 +10,6 @@ export default {
 }
 </script>
 <template>
-  <Refs />
+  <ComponentsBasic />
 </template>
 <style scoped></style>
