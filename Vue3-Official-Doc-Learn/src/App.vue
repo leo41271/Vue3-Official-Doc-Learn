@@ -1,5 +1,5 @@
 <script setup>
-import ComponentsBasic from "@/pages/com-doc/App-components-basic.vue"
+import ComponentsProps from "@/pages/com-doc/App-components-props.vue"
 </script>
 <script>
 export default {
@@ -10,6 +10,6 @@ export default {
 }
 </script>
 <template>
-  <ComponentsBasic />
+  <ComponentsProps />
 </template>
 <style scoped></style>
