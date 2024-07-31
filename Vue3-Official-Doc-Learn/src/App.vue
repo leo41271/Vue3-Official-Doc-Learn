@@ -1,5 +1,5 @@
 <script setup>
-import ComponentsEvents from "@/pages/com-doc/App-components-events.vue"
+import ComponentsVModel from "@/pages/com-doc/App-components-v-model.vue"
 </script>
 <script>
 export default {
@@ -10,6 +10,6 @@ export default {
 }
 </script>
 <template>
-  <ComponentsEvents />
+  <ComponentsVModel />
 </template>
 <style scoped></style>
