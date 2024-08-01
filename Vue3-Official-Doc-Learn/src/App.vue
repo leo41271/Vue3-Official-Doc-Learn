@@ -1,5 +1,5 @@
 <script setup>
-import ComponentsVModel from "@/pages/com-doc/App-components-v-model.vue"
+import Fallthrough from "@/pages/com-doc/App-compoments-fallthrough-attributes.vue"
 </script>
 <script>
 export default {
@@ -10,6 +10,6 @@ export default {
 }
 </script>
 <template>
-  <ComponentsVModel />
+  <Fallthrough />
 </template>
 <style scoped></style>
