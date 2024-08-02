@@ -1,5 +1,5 @@
 <script setup>
-import Fallthrough from "@/pages/com-doc/App-compoments-fallthrough-attributes.vue"
+import ComponentsSlots from "@/pages/com-doc/App-components-slots.vue"
 </script>
 <script>
 export default {
@@ -10,6 +10,6 @@ export default {
 }
 </script>
 <template>
-  <Fallthrough />
+  <ComponentsSlots />
 </template>
 <style scoped></style>
