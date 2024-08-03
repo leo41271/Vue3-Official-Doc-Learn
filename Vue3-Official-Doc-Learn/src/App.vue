@@ -1,5 +1,5 @@
 <script setup>
-import ComponentsSlots from "@/pages/com-doc/App-components-slots.vue"
+import ProvideInject from "@/pages/com-doc/App-components-provide-inject.vue"
 </script>
 <script>
 export default {
@@ -10,6 +10,6 @@ export default {
 }
 </script>
 <template>
-  <ComponentsSlots />
+  <ProvideInject />
 </template>
 <style scoped></style>
