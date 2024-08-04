@@ -1,5 +1,5 @@
 <script setup>
-import ProvideInject from "@/pages/com-doc/App-components-provide-inject.vue"
+import AsyncComponents from "@/pages/com-doc/App-async-components.vue"
 </script>
 <script>
 export default {
@@ -10,6 +10,6 @@ export default {
 }
 </script>
 <template>
-  <ProvideInject />
+  <AsyncComponents />
 </template>
 <style scoped></style>
