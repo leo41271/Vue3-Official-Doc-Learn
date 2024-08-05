@@ -1,5 +1,5 @@
 <script setup>
-import AsyncComponents from "@/pages/com-doc/App-async-components.vue"
+import AppComposables from "@/pages/com-doc/reusability/App-composables.vue"
 </script>
 <script>
 export default {
@@ -10,6 +10,6 @@ export default {
 }
 </script>
 <template>
-  <AsyncComponents />
+  <AppComposables />
 </template>
 <style scoped></style>
