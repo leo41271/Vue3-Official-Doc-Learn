@@ -1,5 +1,5 @@
 <script setup>
-import AppComposables from "@/pages/com-doc/reusability/App-composables.vue"
+import Directives from "@/pages/com-doc/reusability/App-custom-directives.vue"
 </script>
 <script>
 export default {
@@ -10,6 +10,6 @@ export default {
 }
 </script>
 <template>
-  <AppComposables />
+  <Directives />
 </template>
 <style scoped></style>
