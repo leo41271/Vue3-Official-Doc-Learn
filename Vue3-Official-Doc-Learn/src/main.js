@@ -16,6 +16,16 @@ app.component("GlobalA", gloalComponentA)
     .component("GlobalB", gloalComponentB)
     .component("GlobalC", gloalComponentC);
 
+// plugins
+import i18nPlugin from "./plugins/i18n";// main.js
+app.use(i18nPlugin, {
+    greetings: { hello: "Bonjour!" },
+});
+import GoogleTranslatePlugin from './plugins/googleTranslate';
+import { googleKey } from "@/plugins/noPushToGitKey";
+// 使用 Google Translate 插件並傳入 API Key
+app.use(GoogleTranslatePlugin, { apiKey: googleKey });
+
 // directive
 app.directive("globalAdd-999", function (el, binding) {
     el.textContent = binding.value + "999"; // 把改變好的內容再指定回去

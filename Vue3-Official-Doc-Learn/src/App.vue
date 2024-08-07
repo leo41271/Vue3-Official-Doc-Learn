@@ -1,5 +1,5 @@
 <script setup>
-import Directives from "@/pages/com-doc/reusability/App-custom-directives.vue"
+import Plugins from "@/pages/com-doc/reusability/App-plugins.vue"
 </script>
 <script>
 export default {
@@ -10,6 +10,6 @@ export default {
 }
 </script>
 <template>
-  <Directives />
+  <Plugins />
 </template>
 <style scoped></style>
