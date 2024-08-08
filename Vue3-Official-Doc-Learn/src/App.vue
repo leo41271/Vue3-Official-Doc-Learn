@@ -1,5 +1,5 @@
 <script setup>
-import Plugins from "@/pages/com-doc/reusability/App-plugins.vue"
+import ScriptSetup from "@/pages/other/script-setup-docs.vue"
 </script>
 <script>
 export default {
@@ -10,6 +10,6 @@ export default {
 }
 </script>
 <template>
-  <Plugins />
+  <ScriptSetup />
 </template>
 <style scoped></style>
