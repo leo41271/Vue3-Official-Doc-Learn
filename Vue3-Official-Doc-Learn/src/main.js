@@ -58,7 +58,11 @@ const myGlobalDirective = { //概念示範 ( main.js) // 較完整之定義但�
 };
 app.directive("my-global-directive", myGlobalDirective); // 全域註冊
 
-app.config.globalProperties.myCustomProperty = '這是一個全局的自定義屬性';// 添加一個全局的自定義屬性
+// 添加一個全局的自定義方法
+app.config.globalProperties.myCustomMethod = function () {
+    console.log('這是一個全局的自定義 方法！');
+};
+app.config.globalProperties.myCustomProperty = '這是一個全局的自定義 屬性';// 添加一個全局的自定義屬性// 此行有運用在globalProperties、與template-syntax概念
 
 const appInstance = app.mount("#app"); // 觀察組件實例 
 appInstance.gggg = 0;// appInstance.gggg++;

@@ -1,5 +1,5 @@
 <script setup>
-import ScriptSetup from "@/pages/other/script-setup-docs.vue"
+import GlobalProperties from "@/pages/other/globalProperties.vue"
 </script>
 <script>
 export default {
@@ -10,6 +10,6 @@ export default {
 }
 </script>
 <template>
-  <ScriptSetup />
+  <GlobalProperties />
 </template>
 <style scoped></style>
