@@ -1,5 +1,5 @@
 <script setup>
-import GlobalProperties from "@/pages/other/globalProperties.vue"
+import Practice1 from "@/pages/other/practice1.vue"
 </script>
 <script>
 export default {
@@ -10,6 +10,6 @@ export default {
 }
 </script>
 <template>
-  <GlobalProperties />
+  <Practice1 />
 </template>
 <style scoped></style>
