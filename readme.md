@@ -5,6 +5,21 @@
 
 因此，我嘗試改變學習方式，透過實際動手將文檔中的程式碼概念一一實現出來，以此來具體驗證自己是否真正掌握了這些概念。我也借助了多種管道，例如 Stack Overflow 或 GPT 等方式，花費了大量時間來深入學習與實踐。希望這些經驗與努力對現在閱讀這段文字的你能有所幫助。
 
+# 如何閱讀與學習
+舉例1 如果我想要理解 vue3 官方文檔 option API 之下的 [Reactivity Fundamentals](https://vuejs.org/guide/essentials/reactivity-fundamentals.html)概念與實作。我們可以點進過往的 Commit 紀錄中去尋找 對應的 Commit 訊息。
+![](./Vue3-Official-Doc-Learn/screenshots/readmeGitCommit.png)>![](./Vue3-Official-Doc-Learn/screenshots/readmeGitCommit2.png)
+[5-reactivity-fundamentals-opAPI : nextTick、Deep Reactivity、lodash、debounce
+](https://github.com/leo41271/Vue-EcoSystem-Doc-Learn/commit/0642b3a91dbf522a152333d50b59ec999ae5d334)，在此commit訊息中，可以大略知道我做了什麼的實作。  
+舉例2 如果我想要理解 vue3 官方文檔 option API 之下的 [Watchers](https://vuejs.org/guide/essentials/watchers.html)概念與實作。也是點入 紀錄尋找對應的 Commit
+。![](./Vue3-Official-Doc-Learn/screenshots/readmeGitCommit3.png)[13-Watchers-opAPI : basic 、 deep 、 flush post 、 stop watch 、 one eager dot](https://github.com/leo41271/Vue-EcoSystem-Doc-Learn/commit/74cec6fda03ff06de5f941a0c9d0dacd6f8683dc)。
+點入後可以發現到這次 commit 的內容有些多，可以將本次的內容 git clone 下來到自己電腦本端，自己實際運行看看差異。
+我們可以透過註解的方式，註解掉尚未要觀察的部分，較能詳細觀看 每個單元概念的細節與差異，(有些少許部分因為 console.log 的關係，或是概念很多篇幅很常緣故，這將會導致不易閱讀， 或是 其他變數的部分會互相蓋到、搞混，所以分開 註解 來顯示個別的概念更能清楚了解其內容)如下是比較好理解與閱讀的方式。
+![](./Vue3-Official-Doc-Learn/screenshots/readmeGitCommit4.png)
+
+所有被上傳的內容我全部都有具體且明確的實際做過並且有確實看到差異。
+
+如果這對你有幫助希望你能給我一個星星 ★ ，感謝!!
+
 # Vue Official Doc 實作練習檔案布局
 
 ```
