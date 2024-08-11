@@ -45,7 +45,6 @@ All the content uploaded was something I specifically and clearly implemented an
 If this helps you, I hope you can give me a star ★. Thanks!
 
 # Vue Official Doc 實作練習檔案布局
-
 ```
 ./src 目錄下
 │  App.vue
@@ -54,7 +53,151 @@ If this helps you, I hope you can give me a star ★. Thanks!
 │  
 ├─components
 │  ├─api-doc
+│  │  └─api-script-setup-doc
+│  │      │  helpers.js
+│  │      │  MyComponent.vue
+│  │      │  
+│  │      ├─Directive
+│  │      │      MyDirective.js
+│  │      │      
+│  │      ├─DynamicCompo
+│  │      │      Dynamic-ComponentA.vue
+│  │      │      Dynamic-ComponentB.vue
+│  │      │      Dynamic-ComponentC.vue
+│  │      │      
+│  │      ├─ModifierUseGet
+│  │      │      ChildGet.vue
+│  │      │      Parent.vue
+│  │      │      
+│  │      └─NamespacedComponents
+│  │              form-components.js
+│  │              Input.vue
+│  │              Label.vue
+│  │              
 │  ├─com-doc
+│  │  ├─async-component
+│  │  │  │  Async-BasicUse.vue
+│  │  │  │  AsyncDispatcherComponents.vue
+│  │  │  │  AsyncDispatcherUseMap.vue
+│  │  │  │  AsyncDynamic.vue
+│  │  │  │  Error.vue
+│  │  │  │  LazyLoad.vue
+│  │  │  │  Loading.vue
+│  │  │  │  
+│  │  │  └─async-components-sets
+│  │  │          NoSetAsyncComponent.vue
+│  │  │          OneFuncComponent.vue
+│  │  │          ThreeFuncComponent.vue
+│  │  │          TwoFuncComponent.vue
+│  │  │          
+│  │  ├─class-and-style-bindings
+│  │  │      Basic-Class-Use.vue
+│  │  │      Basic-Style-Use.vue
+│  │  │      Class-Component.vue
+│  │  │      
+│  │  ├─components-basic-docs
+│  │  │  │  ComponentBasic.vue
+│  │  │  │  ComponentEvent.vue
+│  │  │  │  ComponentProps.vue
+│  │  │  │  ComponentSlot.vue
+│  │  │  │  
+│  │  │  └─dynamic-components
+│  │  │          A.vue
+│  │  │          B.vue
+│  │  │          C.vue
+│  │  │          D.vue
+│  │  │          dynamic.js
+│  │  │          E.vue
+│  │  │          F.vue
+│  │  │          packImport.js
+│  │  │          
+│  │  ├─components-events-docs
+│  │  │      EmitArgument.vue
+│  │  │      EmitArgument2.vue
+│  │  │      EmitArgument3.vue
+│  │  │      EmitBasicUse.vue
+│  │  │      EmitValidation.vue
+│  │  │      
+│  │  ├─components-fallthrough-attributes-docs
+│  │  │      BasicMyBotton.vue
+│  │  │      ClassStyleMerge.vue
+│  │  │      ListenerInheritance.vue
+│  │  │      RenderListen.vue
+│  │  │      RenderListen2.vue
+│  │  │      
+│  │  ├─components-props-docs
+│  │  │      declare-basic-use.vue
+│  │  │      declare-basic-use2.vue
+│  │  │      Person.js
+│  │  │      
+│  │  ├─components-provide-inject-docs
+│  │  │  │  Child.vue
+│  │  │  │  GrandChild.vue
+│  │  │  │  ProvideInject.vue
+│  │  │  │  
+│  │  │  └─injectionKey
+│  │  │          Keys.js
+│  │  │          
+│  │  ├─components-solts-docs
+│  │  │      AwesomeIcon.vue
+│  │  │      BaseLayout.vue
+│  │  │      DynamicSlotName.vue
+│  │  │      FancyButton.vue
+│  │  │      FancyList.vue
+│  │  │      MouseTracker.vue
+│  │  │      MyComponent.vue
+│  │  │      NameScopeSlot.vue
+│  │  │      SubmitButton.vue
+│  │  │      
+│  │  ├─components-v-model-docs
+│  │  │      BasicVModel.vue
+│  │  │      MultiBindVModel.vue
+│  │  │      VModelArguments.vue
+│  │  │      
+│  │  ├─computed-properties-docs
+│  │  │      ComputedBasic.vue
+│  │  │      ComputedWritable.vue
+│  │  │      
+│  │  ├─custom-directives-docs
+│  │  │      Directive.vue
+│  │  │      
+│  │  ├─event-handling-docs
+│  │  │      Event-Argument.vue
+│  │  │      Event-Key-Modifiers.vue
+│  │  │      Event-Method-Handlers.vue
+│  │  │      Event-Modifiers.vue
+│  │  │      
+│  │  ├─list-rendering-docs
+│  │  │      Basic-V-For.vue
+│  │  │      For-Array.vue
+│  │  │      For-In-Component.vue
+│  │  │      TodoItem.vue
+│  │  │      
+│  │  ├─reactivity-fundamentals-docs
+│  │  │      DOM-NextTick.vue
+│  │  │      Reactive-Limitation.vue
+│  │  │      Reactive.vue
+│  │  │      Ref-Deep.vue
+│  │  │      Ref-Detial.vue
+│  │  │      Why-Ref.vue
+│  │  │      
+│  │  ├─template-refs-docs
+│  │  │      Ref-Basic.vue
+│  │  │      Ref-Component.vue
+│  │  │      Ref-Function.vue
+│  │  │      
+│  │  └─watchers-docs
+│  │          Watch-Basic.vue
+│  │          Watch-Deep.vue
+│  │          Watch-Dot.vue
+│  │          Watch-Eager.vue
+│  │          Watch-Flush-Post.vue
+│  │          Watch-Flush-Sync.vue
+│  │          Watch-One.vue
+│  │          Watch-Source-Types.vue
+│  │          Watch-Stop.vue
+│  │          WatchEffect.vue
+│  │          
 │  ├─op-doc
 │  │  ├─class-and-style-bindings
 │  │  │      Basic-Class-Use.vue
@@ -149,32 +292,78 @@ If this helps you, I hope you can give me a star ★. Thanks!
 │  │          Watch-Stop.vue
 │  │          
 │  └─other
+│      ├─question-practice
+│      │  └─question1
+│      │          ChildComponent.vue
+│      │          ParentComponent.vue
+│      │          
 │      └─style-scoped-show
 │              A.vue
 │              B.vue
 │              
-└─pages
-    ├─com-doc
-    ├─op-doc
-    │      App-class-and-style-bindings.vue
-    │      App-compoments-fallthrough-attributes.vue
-    │      App-component-registration.vue
-    │      App-components-basics.vue
-    │      App-components-events.vue
-    │      App-components-props.vue
-    │      App-components-slots.vue
-    │      App-components-v-model.vue
-    │      App-computed-properties.vue
-    │      App-conditional-rendering.vue
-    │      App-event-handling.vue
-    │      App-form-input-bindings.vue
-    │      App-list-rendering.vue
-    │      App-reactivity-fundamentals.vue
-    │      App-template-refs.vue
-    │      App-watcher.vue
-    │      
-    └─other
-            Promise.vue
-            style-scoped.vue
-86 個檔案，24 個資料夾。
+├─composables
+│      BasicComposableMouse.js
+│      fetch.js
+│      Key.js // 沒有上傳
+│      KeyExample.js
+│      Separate2SmallPiece.js
+│      SeparateMouse.js
+│      
+├─pages
+│  ├─com-doc
+│  │  │  App-async-components.vue
+│  │  │  App-class-and-style-bindings.vue
+│  │  │  App-compoments-fallthrough-attributes.vue
+│  │  │  App-components-basic.vue
+│  │  │  App-components-events.vue
+│  │  │  App-components-props.vue
+│  │  │  App-components-provide-inject.vue
+│  │  │  App-components-slots.vue
+│  │  │  App-components-v-model.vue
+│  │  │  App-computed-properties.vue
+│  │  │  App-conditional-rendering.vue
+│  │  │  App-event-handling.vue
+│  │  │  App-form-input-bindings.vue
+│  │  │  App-list-rendering.vue
+│  │  │  App-reactivity-fundamentals.vue
+│  │  │  App-template-refs.vue
+│  │  │  App-template-syntax.vue
+│  │  │  App-watcher.vue
+│  │  │  
+│  │  └─reusability
+│  │          App-composables.vue
+│  │          App-custom-directives.vue
+│  │          App-plugins.vue
+│  │          
+│  ├─op-doc
+│  │      App-class-and-style-bindings.vue
+│  │      App-compoments-fallthrough-attributes.vue
+│  │      App-component-registration.vue
+│  │      App-components-basics.vue
+│  │      App-components-events.vue
+│  │      App-components-props.vue
+│  │      App-components-slots.vue
+│  │      App-components-v-model.vue
+│  │      App-computed-properties.vue
+│  │      App-conditional-rendering.vue
+│  │      App-event-handling.vue
+│  │      App-form-input-bindings.vue
+│  │      App-list-rendering.vue
+│  │      App-reactivity-fundamentals.vue
+│  │      App-template-refs.vue
+│  │      App-watcher.vue
+│  │      
+│  └─other
+│          globalProperties.vue
+│          practice1.vue
+│          Promise.vue
+│          script-setup-docs.vue
+│          style-scoped.vue
+│          
+└─plugins
+        googleTranslate.js
+        i18n.js
+        noPushToGitKey-Example.js
+        noPushToGitKey.js // 沒有上傳
+219 個檔案，53 個資料夾。
 ```
