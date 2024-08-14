@@ -23,6 +23,7 @@ function checkValue() {
 }
 // -------------
 // 先跳過 遞迴組件
+import RecursiveComponent from '@/components/other/question-practice/question2/RecursiveComponent.vue';
 // -------------
 import * as Form from '@/components/api-doc/api-script-setup-doc/NamespacedComponents/form-components.js'
 // https://github.com/vuejs/docs/issues/1267 人家那麼厲害的都問了= =
@@ -56,7 +57,8 @@ import defModelModifi from '@/components/api-doc/api-script-setup-doc/ModifierUs
     這很重要
     <component :is="selected == 'A' ? DynamicComponentA : selected == 'B' ? DynamicComponentB : DynamicComponentC" />
     <hr>
-    遞迴組件 暫時略
+    遞迴組件
+    <RecursiveComponent></RecursiveComponent>
     <hr>
     命名空間組件
     <Form.Input>
