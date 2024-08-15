@@ -31,3 +31,5 @@ coverage
 # Custom ignore客製化不上傳。
 src/composables/Key.js
 src/plugins/noPushToGitKey.js
+# // 切換到該目錄下打開cmd : tree /F > ./Vue_File_Map_tree.txt 產生
+src/Vue_File_Map_tree.txt
