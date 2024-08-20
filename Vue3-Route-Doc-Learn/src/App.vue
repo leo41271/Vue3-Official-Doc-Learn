@@ -1,7 +1,7 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import GettingStarted from './pages/GettingStarted.vue';
 </script>
 
 <template>
-<div></div>
+  <GettingStarted></GettingStarted>
 </template>
