@@ -1,7 +1,9 @@
 <script setup>
-import GettingStarted from './pages/GettingStarted.vue';
+import showExample from '@/pages/DynaParamNotFound/showExample.vue';
 </script>
 
 <template>
-  <GettingStarted></GettingStarted>
+  <a href=" http://localhost:5173/">http://localhost:5173/</a>
+  <hr>
+  <showExample></showExample>
 </template>
