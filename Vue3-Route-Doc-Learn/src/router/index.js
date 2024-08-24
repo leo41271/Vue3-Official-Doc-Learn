@@ -29,9 +29,10 @@ const routes = [
         component: NestUser, // 省略父組件 可透過註解掉這行觀察
         children: [
             // 當 User組件中的 <router-view> 之Url 符合時 對應之路由所應設之組件時 該組件將被渲染
-            { path: "", component: NestUserHome }, //
+            { path: "", name: "thisIsUseToExcludeWarning", component: NestUserHome }, // thisIsUseToExcludeWarning 用於迴避避免此章節範例出現的警告
+            // The route named "nestShowParents" has a child without a name and an empty path. Using that name won't render the empty path child so you probably want to move the name to the child instead. If this is intentional, add a name to the child route to remove the warning.
             { path: "profile", component: NestUserProfile }, // /user/:id/profile
-            { path: "posts", component: NestUserPosts }, // /user/:id/profile
+            { path: "posts", component: NestUserPosts }, // /user/:id/post
             { path: "", name: "userName", component: NestUserName }, // /user/:id/profile
         ],
     },
