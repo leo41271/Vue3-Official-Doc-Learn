@@ -13,6 +13,13 @@ import NestUserHome from "@/views/NestedRoutes/UserHome.vue";
 import NestUserProfile from "@/views/NestedRoutes/UserProfile.vue";
 import NestUserPosts from "@/views/NestedRoutes/UserPosts.vue";
 import NestUserName from "@/views/NestedRoutes/UserNamed.vue";
+import First from "@/views/NamedViews/Basic/First.vue";
+import Second from "@/views/NamedViews/Basic/Second.vue";
+import Third from "@/views/NamedViews/Basic/Third.vue";
+import UserSettings from "@/views/NamedViews/NestedNamedViews/UserSettings.vue";
+import UserEmailsSubscriptions from "@/views/NamedViews/NestedNamedViews/UserEmailsSubscriptions.vue";
+import UserProfile from "@/views/NamedViews/NestedNamedViews/UserProfile.vue";
+import UserProfilePreview from "@/views/NamedViews/NestedNamedViews/UserProfilePreview.vue";
 
 const routes = [
     { path: "/", component: HomeView }, // 範例1
@@ -34,6 +41,29 @@ const routes = [
             { path: "profile", component: NestUserProfile }, // /user/:id/profile
             { path: "posts", component: NestUserPosts }, // /user/:id/post
             { path: "", name: "userName", component: NestUserName }, // /user/:id/profile
+        ],
+    },
+    {
+        path: "/nestView", // 路徑映射 映射組 映射組再映射多組件配置 name view範例
+        components: { default: First, a: Second, b: Third },
+    },
+    {
+        path: "/nestView/other",
+        components: { default: Third, a: Second, b: First },
+    },
+    {
+        path: "/nestview/settings", // 可用 named views。 nestnameview 範例
+        component: UserSettings,
+        children: [
+            {
+                path: "/emails",
+                name: "nestEmail",
+                component: UserEmailsSubscriptions,
+            },
+            {
+                path: "/profile2",
+                components: { default: UserProfile, helper: UserProfilePreview },
+            },
         ],
     },
 ];
