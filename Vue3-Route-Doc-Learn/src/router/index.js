@@ -20,6 +20,9 @@ import UserSettings from "@/views/NamedViews/NestedNamedViews/UserSettings.vue";
 import UserEmailsSubscriptions from "@/views/NamedViews/NestedNamedViews/UserEmailsSubscriptions.vue";
 import UserProfile from "@/views/NamedViews/NestedNamedViews/UserProfile.vue";
 import UserProfilePreview from "@/views/NamedViews/NestedNamedViews/UserProfilePreview.vue";
+import LeoPage from "@/views/RedirectandAlias/LeoPage.vue";
+import MaxRoll from "@/views/RedirectandAlias/MaxRoll.vue";
+import MaxRollLevel from "@/views/RedirectandAlias/MaxRollLevel.vue";
 
 const routes = [
     { path: "/", component: HomeView }, // 範例1
@@ -66,6 +69,38 @@ const routes = [
             },
         ],
     },
+    { path: "/leo-home", name: "leo#41271", component: LeoPage }, // 實際頁面
+    { path: "/maxroll-build", name: "maxroll", component: MaxRoll }, // 實際頁面
+    { path: "/leo", redirect: "leo-home" /*, component: LeoPage */ }, // 重導不用寫組件
+    { path: "/d2r-build", redirect: "maxroll-build" /*, component: MaxRoll */ }, // 嵌套路由(巢狀)
+    { path: "/maxroll", redirect: { name: "maxroll" } /*, component: MaxRoll */ }, // 用 name 重導
+    // 設兩個重導 看結果
+    // 函式 動態重導
+    {
+        path: "/maxroll-build/:buildLevel", // /maxroll/S -> /maxroll?level=S
+        redirect: (to) => {
+            const Level = to.params.buildLevel;
+            if (Level === "S" || Level === "A" || Level === "B") {
+                return {
+                    path: "/maxroll-build-level",
+                    query: { level: to.params.buildLevel },
+                };
+            } else {
+                return { name: "maxroll" }; /* 對於其他值，重定向到首頁 */
+            }
+        }, // 回顧 路由匹配語法
+    },
+    { path: "/maxroll-build-level", component: MaxRollLevel },
+    // 相對重導 並沒有被實現 // https://github.com/vuejs/router/issues/1902 等解答中
+    {
+        path: "/maxroll-build/:buildLevel/roll",
+        redirect: (to) => {
+            console.log("to ", to); // or { path: 'profile'}
+            return "gg"; // 這將會取代第一個反斜線以後的部分
+            // return { path: "gg" };
+        },
+    },
+    { path: "/maxroll-build/:buildLevel/gg", component: MaxRollLevel },
 ];
 
 const router = createRouter({

@@ -1,9 +1,9 @@
 <script setup>
-import NamedViews from '@/pages/NamedViews/showExample.vue';
+import Redirect from '@/pages/Redirect.vue';
 </script>
 
 <template>
   <a href="http://localhost:5173/">http://localhost:5173/</a>
   <hr>
-  <NamedViews></NamedViews>
+  <Redirect></Redirect>
 </template>
