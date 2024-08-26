@@ -1,9 +1,9 @@
 <script setup>
-import Redirect from '@/pages/Redirect.vue';
+import PropsToRouteComponents from '@/pages/PropsToRouteComponents.vue';
 </script>
 
 <template>
   <a href="http://localhost:5173/">http://localhost:5173/</a>
   <hr>
-  <Redirect></Redirect>
+  <PropsToRouteComponents></PropsToRouteComponents>
 </template>

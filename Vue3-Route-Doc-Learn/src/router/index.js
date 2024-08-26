@@ -23,6 +23,10 @@ import UserProfilePreview from "@/views/NamedViews/NestedNamedViews/UserProfileP
 import LeoPage from "@/views/RedirectandAlias/LeoPage.vue";
 import MaxRoll from "@/views/RedirectandAlias/MaxRoll.vue";
 import MaxRollLevel from "@/views/RedirectandAlias/MaxRollLevel.vue";
+import OldUser from "@/views/PropstoRouteComponent/OldUser.vue";
+import NewUser from "@/views/PropstoRouteComponent/NewUser.vue";
+import Sidebar from "@/views/PropstoRouteComponent/Sidebar.vue";
+import ObjectMode from "@/views/PropstoRouteComponent/ObjectMode.vue";
 
 const routes = [
     { path: "/", component: HomeView }, // 範例1
@@ -101,6 +105,31 @@ const routes = [
         },
     },
     { path: "/maxroll-build/:buildLevel/gg", component: MaxRollLevel },
+    { path: "/prop-route/users/:id", name:"prop-old", component: OldUser },
+    { path: "/prop-route/users/:id", name:"prop-new", component: NewUser, props: true },
+    {
+        path: '/prop-route/named-views/:id',
+        components: {
+            default: NewUser,   // 主視圖
+            sidebar: Sidebar // 命名視圖
+        },
+        props: {
+            default: true,   // 將路由參數作為 prop 傳遞給 User
+            sidebar: false   // 不傳遞任何 props 給 Sidebar
+        },
+    }, 
+    {
+        path: '/prop-route/object-mode',
+        component: ObjectMode,
+        props: { newsletterPopup: false } // 靜態傳遞的 props
+    },
+    {
+        path: '/function-mode-object-mode',
+        component: ObjectMode,
+        props: route => ({
+            newsletterPopup: route.query.popup === 'true'  // 根據查詢參數動態設置
+        }) // 請盡可能保持 props 函數為無狀態的，因為它只會在路由發生變化時起作用。
+    }
 ];
 
 const router = createRouter({
