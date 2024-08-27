@@ -28,3 +28,6 @@ coverage
 *.sw?
 
 *.tsbuildinfo
+# Custom ignore客製化不上傳。
+# // 切換到該目錄下打開cmd : tree /F > .VueRouter_File_Map_tree.txt 產生
+src/VueRouter_File_Map_tree.txt

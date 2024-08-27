@@ -45,7 +45,8 @@ All the content uploaded was something I specifically and clearly implemented an
 If this helps you, I hope you can give me a star ★. Thanks!
 
 ---
-+ Vue Official Doc 練習的 [檔案佈局](https://github.com/leo41271/Vue3-Official-Doc-Learn/blob/master/Vue3-Official-Doc-Learn/README.md#vue-official-doc-%E5%AF%A6%E4%BD%9C%E7%B7%B4%E7%BF%92%E6%AA%94%E6%A1%88%E5%B8%83%E5%B1%80)
++ Vue Official Doc 練習的 [檔案佈局](https://github.com/leo41271/Vue3-Official-Doc-Learn/blob/master/Vue3-Official-Doc-Learn/README.md#vue-official-doc-實作練習檔案布局)  
++ Vue Router Official Doc 練習的 [檔案佈局](https://github.com/leo41271/Vue3-Official-Doc-Learn/blob/master/Vue3-Route-Doc-Learn/README.md#vue-router-official-doc-實作練習檔案布局)
 
 + Commit records before Aug 17, 2024 are all content of pure Vue official documents. Future records currently mostly belong to VueRouter.  
 在 Aug 17, 2024 之前的 commit 紀錄 都是屬於 純 Vue 官方文檔的內容。往後的紀錄目前則多屬於 VueRouter。
