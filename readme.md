@@ -44,9 +44,56 @@ You can comment out the parts you’re not observing yet, which allows you to ex
 All the content uploaded was something I specifically and clearly implemented and saw the differences.  
 If this helps you, I hope you can give me a star ★. Thanks!
 
----
+## others
 + Vue Official Doc 練習的 [檔案佈局](https://github.com/leo41271/Vue3-Official-Doc-Learn/blob/master/Vue3-Official-Doc-Learn/README.md#vue-official-doc-實作練習檔案布局)  
 + Vue Router Official Doc 練習的 [檔案佈局](https://github.com/leo41271/Vue3-Official-Doc-Learn/blob/master/Vue3-Route-Doc-Learn/README.md#vue-router-official-doc-實作練習檔案布局)
 
 + Commit records before Aug 17, 2024 are all content of pure Vue official documents. Future records currently mostly belong to VueRouter.  
 在 Aug 17, 2024 之前的 commit 紀錄 都是屬於 純 Vue 官方文檔的內容。往後的紀錄目前則多屬於 VueRouter。
+---
+### 概觀  Overview
++ Vue
+
+concept of page | option API | composition API | `my note`
+--- | --- | --- | ---
+Getting Started part
+`1 Introduction` | &#10005; | &#10005; | &#10004; 
+`Quick Start` | &#10005; | &#10005; | &#10004;
+Essentials part
+`Creating an Application` | &#10005; | &#10005; | &#10004;
+above see | `my note` or | earlier git | commits 
+`4 Template Syntax` | &#10004; | &#10004; | &#10004;
+`5 Reactivity Fundamentals` | &#10004; | &#10004; | &#10004;
+`6 Computed Properties` | &#10004; | &#10004; | &#10004;
+`7 Class and Style Bindings` | &#10004; | &#10004; | &#10004;
+`8 Conditional Rendering` | &#10004; | &#10004; | &#10004;
+`9 List Rendering` | &#10004; | &#10004; | &#10004;
+`10 Event Handling` | &#10004; | &#10004; | &#10004;
+`11 Form Input Bindings` | &#10004; | &#10004; | &#10004;
+`12 Lifecycle Hooks` | &#10004; | &#10004; | &#10004;
+`13 Watchers` | &#10004; | &#10004; | &#10004;
+`14 Template Refs` | &#10004; | &#10004; | &#10004;
+`15 Components Basics` | &#10004; | &#10004; | &#10004;
+Components In-Depth
+`16 Registration` | &#10004; | &#10004; | &#10004;
+`17 Props` | &#10004; | &#10004; | &#10004;
+`18 Events` | &#10004; | &#10004; | &#10004;
+`19 Component v-model` | &#10004; | &#10004; | &#10004;
+`20 Fallthrough Attributes` | &#10004; | &#10004; | &#10004;
+`21 Slots` | &#10004; | &#10004; | &#10004;
+`22 Provide / inject` | &#10005; | &#10004; | &#10004;
+`23 Async Components` | &#10005; | &#10004; | &#10004;
+Reusability
+`24 Composables` | &#10005; | &#10004; | &#10004;
+`25 Custom Directives` | &#10005; | &#10004; | &#10004;
+`26 Plugins` | &#10005; | &#10004; | &#10004;
+VUE API Reference
+`<script setup>` | &#10005; | &#10004; | &#10004;
+others
+`SSR` | &#10005; | &#10005; | &#10004;
+`Rendering Mechanism` | &#10005; | &#10005; | &#10004;
+`other concepts` | &#10005; | &#10005; | &#10004;
+additional
+`Promise` | &#10004; | &#10005; | &#10005;
+`DOM BOM` | &#10005; | &#10005; | &#10005; 未完
+`other examples` | &#10005; | &#10004; | &#10004;
