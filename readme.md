@@ -97,3 +97,24 @@ additional
 `Promise` | &#10004; | &#10005; | &#10005;
 `DOM BOM` | &#10005; | &#10005; | &#10005; 未完
 `other examples` | &#10005; | &#10004; | &#10004;
+
++ Vue Router
+
+concept of page | code | `my note`
+--- | :---: | :---:
+`route concept` | &#10005; | &#10004;
+Setup part
+`Introduction` | &#10005; | &#10004;
+`Installation` | &#10005; | &#10004;
+Essentials
+`Getting Started` | &#10004; | &#10004;
+`Dynamic Route Matching` | &#10004; | &#10004;
+`Routes' Matching Syntax` | &#10005; | &#10004;
+`Named Routes` | &#10004; | &#10004;
+`Nested Routes` | &#10004; | &#10004;
+`Programmatic Navigation` | &#10005; | &#10004;
+`Named Views` | &#10004; | &#10004;
+`Redirect and Alias` | &#10004; | &#10004;
+`Passing Props to Route Components` | &#10004; | &#10004;
+`Active links` | &#10005; | &#10005;
+`Different History modes` | &#10005; | &#10004;
