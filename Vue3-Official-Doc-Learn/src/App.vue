@@ -1,5 +1,5 @@
 <script setup>
-import Practice3 from "@/pages/other/practice3.vue"
+import Practice4 from "@/pages/other/practice4.vue"
 </script>
 <script>
 export default {
@@ -10,6 +10,6 @@ export default {
 }
 </script>
 <template>
-  <Practice3 />
+  <Practice4 />
 </template>
 <style scoped></style>
