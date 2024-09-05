@@ -1,6 +1,6 @@
 <script setup>
-import BasicExample from './pages/BasicExample.vue';
+import DefiningAStore from '@/components/DefiningAStore.vue';
 </script>
 <template>
-  <BasicExample />
+  <DefiningAStore />
 </template>
