@@ -28,3 +28,5 @@ coverage
 *.sw?
 
 *.tsbuildinfo
+# Custom ignore客製化不上傳。
+src/composables/Key.js
