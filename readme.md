@@ -118,3 +118,18 @@ Essentials
 `Passing Props to Route Components` | &#10004; | &#10004;
 `Active links` | &#10005; | &#10005;
 `Different History modes` | &#10005; | &#10004;
+
++ Pinia
+
+concept of page | code | `my note`
+--- | :---: | :---:
+`State Management Pattern` | &#10005; | &#10004;
+`What is Vuex` | &#10005; | &#10004;
+Introduction part
+`What is Pinia?` | &#10005; | &#10004;
+`Getting Started` | &#10004; | &#10004;
+Core Concepts
+`Defining a Store` | &#10004; | &#10004;
+`State` | &#10004; | &#10004;
+`Getter` | &#10004; | &#10004;
+`Actions` | &#10004; | &#10004;
